@@ -1,0 +1,42 @@
+How input from for array sum
+       var sum;
+         let array3 =[];             //array declears
+        let dom=document;
+         let result3=dom.getElementById("program03")
+         let num=parseInt(prompt("Enter array size"));   //Array size input from user  
+         for (let index = 0; index < num; index++) {
+             parseInt(prompt("Enter array Value",array3[index]))
+             sum+=array3[index];
+            
+         }
+         programo3.innerHTML=sum;
+        // for (let index = 0; index < array3.length; index++) {
+             
+        //     sum+=array3[index];
+            
+        // }        
+                   
+        // sum=sum+array3[index];
+Q12
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Arrays</h1>
+<h2>The filter() Method</h2>
+
+<p>Get every element in the array that has a value of 18 or more:</p>
+
+<p id="demo"></p>
+
+<script>
+const ages = [26, 27, 26, 26, 28, 28, 29, 29, 30]
+const uniqueAges = ages.filter((x, i, a) => a.indexOf(x) == i)
+console.log(uniqueAges)
+
+document.getElementById("demo").innerHTML =uniqueAges
+
+</script>
+
+</body>
+</html>
